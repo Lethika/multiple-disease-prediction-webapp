@@ -9,10 +9,10 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 #loading the saved models0
-diabetes_model = pickle.load(open('C:/Users/lethika/OneDrive/Desktop/multiple disease prediction/saved_models/diabetes_model.sav','rb'))
-heart_disease_model = pickle.load(open('C:/Users/lethika/OneDrive/Desktop/multiple disease prediction/saved_models/heart_disease_model.sav','rb'))
-parkinsons_model= pickle.load(open('C:/Users/lethika/OneDrive/Desktop/multiple disease prediction/saved_models/parkinsons_model.sav','rb'))
-stress_model = pickle.load(open('C:/Users/lethika/OneDrive/Desktop/multiple disease prediction/saved_models/stress_trained.sav','rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav','rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
+parkinsons_model= pickle.load(open('parkinsons_model.sav','rb'))
+stress_model = pickle.load(open('stress_trained.sav','rb'))
 
 # sidebar for navigation
 with st.sidebar:
